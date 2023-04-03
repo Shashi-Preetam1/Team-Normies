@@ -4,3 +4,10 @@
     border-width: 2 px;
     border-color: rgb(229, 215, 55);
 }
+.logo{
+    
+    border-style: solid;
+    border-width: 2 px;
+    border-color: aquamarine;
+    background-color: aliceblue;
+}
