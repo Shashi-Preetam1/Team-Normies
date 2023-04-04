@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="design.css">
+    <script>
+        function ColdDrinksInfo(){
+            var req = new XMLHttpRequest();
+
+            req.open("GET", "coldDrinks.html");
+
+            req.onreadystatechange = function(){
+                if(this.readyState == 4 && this.status == 200){
+                    console.log(this.responseText);
+                    document.getElementById("coldDrinks").innerHTML = this.responseText;
+                }
+            };
+
+            req.send();
+        }
+    </script>
 </head>
 <body>
     <div class="top-container">
@@ -21,28 +37,40 @@
         </ul>
     </div>
     <div class="items">
-        <table border="2 px" bordercolor="aquamarine">
-       <td>
-        <figure> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtu0XKnMiJoM34aBclyys-lt34WHfM5RqwA&usqp=CAU" alt="cold drinks" height="80" width="80"><figcaption>COLD DRINK</figcaption></figure>
-       </td>
-       <td>
-        <figure><img src="https://img.freepik.com/free-vector/mango-refresh-juice_18591-76733.jpg?size=626&ext=jpg&ga=GA1.1.858209112.1680546555&semt=sph" alt="juices/shakes" height="80" width="80"><figcaption>JUICE/SHAKE</figcaption></td></figure>
-       <td>
-        <figure><img src="https://img.freepik.com/free-vector/happy-cute-ice-cream-cartoon-vector-illustration-food-ice-cream-concept-isolated-flat-cartoon-style_138676-1862.jpg?w=2000" alt="ice-cream" height="80" ><figcaption>ICE CREAM</figcaption></figure>
-       </td>
-       <td>
-        <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlXeSunoek1ImR9VJwRGmua4qijL1qZmsf4A&usqp=CAU" alt="wafers" height="80" width="80"><figcaption>WAFERS</figcaption></figure>
-       </td>
-       <td>
-        <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj7fvU5-BwxQx14a3AG5d88c5nfjWVWy2JYw&usqp=CAU" alt="cake" height="80" width="80"><figcaption>CAKE</figcaption></figure>
-       </td>
-       <td>
-        <figure><img src="https://static.vecteezy.com/system/resources/previews/003/672/373/original/junk-food-cartoon-design-vector.jpg" alt="authentic" height="80" width="80"><figcaption>AUTHENTIC</figcaption></figure>
-      </td>
-        </table>
+        
+        <div class="cold-drink">
+            <button class ="sup1" onclick="ColdDrinksInfo()">
+            <img class="img1" src="https://cdn-icons-png.flaticon.com/128/8636/8636848.png" height="65" width="60" alt="Cold-drink">
+        </button>
+        <h6 class="head1">COLD DRINK</h6>
+            
+        </div>
+        
+        <div class="juice">
+            <img  class="img2" src="https://cdn-icons-png.flaticon.com/128/4627/4627234.png" height="65" width="60" alt="Juice">
+            <h6 class="head2">JUICE</h6>
+        </div>
+        <div class="ice">
+            <img class ="img3" src="https://cdn-icons-png.flaticon.com/128/3198/3198662.png" height="55" width="50" alt="Ice-cream">
+            <h6 class="head3">ICE CREAM</h6>
+        </div>
+        <div class="wafers">
+            <img class="img4" src="https://cdn-icons-png.flaticon.com/128/5029/5029259.png" height="65" width="60" alt="crisps">
+            <h6 class="head4">CRISPS</h6>
+        </div>
+        <div class="cake">
+            <img class="img5" src="https://cdn-icons-png.flaticon.com/128/9324/9324801.png" height="65" width="60" alt="cakes">
+            <h6 class="head5">CAKE</h6>
+        </div>
+        <div class="authentic">
+
+        </div>
     </div>
 
-    <div>
+    <div id="coldDrinks"></div>
+
+
+    <div class="block-2">
         <table>
          <tr>
             <td>BEYOND</td>
@@ -59,7 +87,7 @@
         </table>
     </div>
 
-    <div>
+    <div class="block-3">
         <table>
             <tr>
                 <td>Important Links</td>
