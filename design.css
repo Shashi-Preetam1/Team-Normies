@@ -49,53 +49,43 @@
 
 .cold-drink{
     position:relative;
-    top:20px;
+    top: 0px;
     left:16px;
     width:90px;
     height:90px;
-   border-color:#227C70;
+   
    display:inline-block;
    border-radius:10px;
 }
 .juice{
     position:relative;
-    top:20px;
+    bottom:0px;
     left:24px;
     width:90px;
     height:90px;
-   border-color:#227C70;
    display:inline-block;
-   border-radius:10px;
 }
 .ice{
     position:relative;
-    top:10px;
     left:32px;
     width:90px;
     height:90px;
-   border-color:#227C70;
    display:inline-block;
-   border-radius:10px;
 }
 .wafers{
     position:relative;
-    top:20px;
+    top:0px;
     left:40px;
     width:90px;
     height:90px;
-   border-color:#227C70;
    display:inline-block;
-   border-radius:10px;
 }
 .cake{
     position:relative;
-    top:20px;
     left:48px;
     width:90px;
     height:90px;
-   border-color:#227C70;
    display:inline-block;
-   border-radius:10px;
 }
 .block-2{
     position:relative;
@@ -108,10 +98,10 @@
 .items{
     position:relative;
     top:80px;
-    left:30px;
-    width:95%;
+    left:320px;
+    width:500px;
     height:150px;
-    background-color: lightblue;
+    background-color: white;
 }
 .img1{
     position:relative;
@@ -122,41 +112,39 @@
 }
 .img2{
     position:relative;
-    left:10px;
-    
+    bottom:5px;
+    right:5px;
     display:inline-block;
 }
 .img3{
     position:relative;
-    left:20px;
-    top:10px;
+    left:0px;
+   bottom:2px;
     display:inline-block;
 }
 .img4{
     position:relative;
-    left:15px;
-    top:5px;
+    bottom:5px;
     display:inline-block;
 }
 .img5{
     position:relative;
-    left:15px;
-    top:5px;
+    bottom:5px;
     display:inline-block;
 }
 .head5{
     position:relative;
-    bottom:20px;
+    bottom:40px;
     left:30px;
 }
 .head4{
     position:relative;
-    bottom:20px;
+    bottom:40px;
     left:24px;
 }
 .head3{
     position:relative;
-    bottom:10px;
+    bottom:40px;
     left:14px;
 }
 .head1{
@@ -166,15 +154,56 @@
 }
 .head2{
     position:relative;
-    bottom:18px;
+    bottom:40px;
     left:28px;
 }
-.sup1{
+.button1{
     position:relative;
-    left:00px;
-    top:00px;
     width:90px;
     height:90px;
+    background-color: lightblue;
+    border:solid;
+    border-width:3px;
+    border-color:#227C70;
     border-radius:10px;
-    background-color:lightblue;
+}
+.button2{
+    position:relative;
+    width:90px;
+    height:90px;
+    background-color: lightblue;
+    border:solid;
+    border-width:3px;
+    border-color:#227C70;
+    border-radius:10px;
+}
+.button3{
+    position:relative;
+    width:90px;
+    height:90px;
+    background-color: lightblue;
+    border:solid;
+    border-width:3px;
+    border-color:#227C70;
+    border-radius:10px;
+}
+.button4{
+    position:relative;
+    width:90px;
+    height:90px;
+    background-color: lightblue;
+    border:solid;
+    border-width:3px;
+    border-color:#227C70;
+    border-radius:10px;
+}
+.button5{
+    position:relative;
+    width:90px;
+    height:90px;
+    background-color: lightblue;
+    border:solid;
+    border-width:3px;
+    border-color:#227C70;
+    border-radius:10px;
 }
