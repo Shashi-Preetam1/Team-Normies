@@ -207,3 +207,50 @@
     border-color:#227C70;
     border-radius:10px;
 }
+
+.bottomlist{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45 px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+}
+.blockdiv{
+    display: inline-block;
+    position:relative;
+    top:80px;
+}
+.last{
+    text-align: center;
+    font-size: smaller;
+    position: relative;
+    top: auto;
+}
+footer{
+   
+    height:auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #97DECE;
+}
+footer{
+    position:relative;
+    top:200px;
+    background: #227C70;
+}
+.new{
+    display: inline-block;
+    position: relative;
+    color: #97DECE;
+    background-color: #227C70;
+    padding: 40 px;
+}
+
+.divide{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    }
