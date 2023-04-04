@@ -12,3 +12,7 @@
     border-color: aquamarine;
     background-color: aliceblue;
 }
+.bottomlist{
+    background-color: aliceblue;
+    display: flex;
+}
