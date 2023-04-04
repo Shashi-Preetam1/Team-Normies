@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 
 .important{
     border-style: solid;
@@ -98,7 +101,7 @@
 .items{
     position:relative;
     top:80px;
-    left:320px;
+    left: 32.5%;
     width:500px;
     height:150px;
     background-color: white;
@@ -232,6 +235,37 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: antiquewhite;
 }
+
+.container{
+    position:relative;
+    min-height: 700px;
+}
+
+#drinks_menu{
+    position: absolute;
+    left: 13%;
+}
+
+#juice_menu{
+    position: absolute;
+    left: 13%;
+}
+
+#ice_cream_menu{
+    position: absolute;
+    left: 13%;
+}
+
+#crisps_menu{
+    position: absolute;
+    left: 13%;
+}
+
+#cake_menu{
+    position: absolute;
+    left: 13%;
+}
+
 .blockdiv{
     display: inline-block;
     position:relative;
@@ -244,16 +278,14 @@
     top: auto;
 }
 footer{
-   
-    height:auto;
-    width: 100vw;
+    display: relative;
+    left: 0px;
+    width: 100%;
     font-family: "Open Sans";
     padding-top: 40px;
     color: #97DECE;
 }
 footer{
-    position:relative;
-    top:200px;
     background: #227C70;
 }
 .new{

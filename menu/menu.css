@@ -1,9 +1,10 @@
 .menu{
     width:90%;
     height:500px;
+    top: 70px;
     background-color:white;
     position:relative;
-    left:60px;
+    left:15%;
 }
 .cold1{
     width:180px;
@@ -12,7 +13,7 @@
     position:relative;
     left:70px;
     top:80px;
-    box-shadow:5px 5px 5px 5px#97DECE;
+    box-shadow:3px 3px 3px 3px rgba(34,124,112,0.65);
 }
 .cold11{
     width:90px;

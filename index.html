@@ -1,104 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="design.css">
-    <script>
-        function ColdDrinksInfo(){
-            var req = new XMLHttpRequest();
+    <link rel="stylesheet" href="menu/menu.css">
+    <script src="script.js" defer></script>
 
-            req.open("GET", "coldDrinks.html");
-
-            req.onreadystatechange = function(){
-                if(this.readyState == 4 && this.status == 200){
-                    console.log(this.responseText);
-                    document.getElementById("coldDrinks").innerHTML = this.responseText;
-                }
-            };
-
-            req.send();
-        }
-    </script>
 </head>
+
 <body>
     <div class="top-container">
-        <img class ="logo" src="https://media.tenor.com/mrCErGByIYMAAAAj/eat-it.gif" height="160" width="160" alt="panda">
+        <img class="logo" src="https://media.tenor.com/mrCErGByIYMAAAAj/eat-it.gif" height="160" width="160"
+            alt="panda">
         <h1 class="top-heading">BEYOND MESS</h1>
     </div>
     <div class="important">
         <h3 class="Second-heading">IMPORTANT!!</h3>
         <ul>
-            <li>The timing section moves with the feedback section (Inside the red button in the right bottom corner).</li>
+            <li>The timing section moves with the feedback section (Inside the red button in the right bottom corner).
+            </li>
             <li>Please stick to the timing, especially for authentic food.</li>
-            <li>Please check the payment status after ordering; if it remains "pending," click the refresh button to update.</li>
+            <li>Please check the payment status after ordering; if it remains "pending," click the refresh button to
+                update.</li>
         </ul>
     </div>
     <div class="items">
-        
+
         <div class="cold-drink">
-            <button class ="button1" onclick="ColdDrinksInfo()">
-              <img class="img1" src="https://cdn-icons-png.flaticon.com/128/8636/8636848.png" height="65" width="60" alt="Cold-drink">
+            <button class="button1" id="button1">
+                <img class="img1" src="https://cdn-icons-png.flaticon.com/128/8636/8636848.png" height="65" width="60"
+                    alt="Cold-drink">
             </button>
             <h6 class="head1">COLD DRINK</h6>
         </div>
-        
+
         <div class="juice">
-            <button class ="button2" onclick="ColdDrinksInfo()">
-            <img  class="img2" src="https://cdn-icons-png.flaticon.com/128/4627/4627234.png" height="65" width="60" alt="Juice">
+            <button class="button2" id="button2">
+                <img class="img2" src="https://cdn-icons-png.flaticon.com/128/4627/4627234.png" height="65" width="60"
+                    alt="Juice">
             </button>
             <h6 class="head2">JUICE</h6>
         </div>
         <div class="ice">
-            <button class ="button3" onclick="ColdDrinksInfo()">
-            <img class ="img3" src="https://cdn-icons-png.flaticon.com/128/3198/3198662.png" height="55" width="50" alt="Ice-cream">
+            <button class="button3" id="button3">
+                <img class="img3" src="https://cdn-icons-png.flaticon.com/128/3198/3198662.png" height="55" width="50"
+                    alt="Ice-cream">
             </button>
             <h6 class="head3">ICE CREAM</h6>
         </div>
         <div class="wafers">
-            <button class ="button4" onclick="ColdDrinksInfo()">
-            <img class="img4" src="https://cdn-icons-png.flaticon.com/128/5029/5029259.png" height="65" width="60" alt="crisps">
+            <button class="button4" id="button4">
+                <img class="img4" src="https://cdn-icons-png.flaticon.com/128/5029/5029259.png" height="65" width="60"
+                    alt="crisps">
             </button>
             <h6 class="head4">CRISPS</h6>
         </div>
         <div class="cake">
-            <button class ="button5" onclick="ColdDrinksInfo()">
-            <img class="img5" src="https://cdn-icons-png.flaticon.com/128/9324/9324801.png" height="65" width="60" alt="cakes">
+            <button class="button5" id="button5">
+                <img class="img5" src="https://cdn-icons-png.flaticon.com/128/9324/9324801.png" height="65" width="60"
+                    alt="cakes">
             </button>
             <h6 class="head5">CAKE</h6>
         </div>
     </div>
 
-    <div id="coldDrinks"></div>
+    <div class="container">
+        <div id="drinks_menu">
+            <div class="menu">
+                <div class="cold1">
+                    <p class="head11"><strong>SPRITE(2.25l)INR99</strong></p>
+                </div>
+                <div class="cold11">
+                    <img src="menu/menu_images/SPRITE.jpeg" height="90" width="90">
+                </div>
+                <div class="cold2">
+                    <p class="head22"><strong>COKE(750ml)INR44</strong></p>
+                </div>
+                <div class="cold22">
+                    <img src="menu/menu_images/COCA.jpeg" height="90" width="90">
+                </div>
+                <div class="cold3">
+                    <p class="head33"><strong>COKE(250ml)INR20</strong></p>
+                </div>
+                <div class="cold33">
+                    <img src="menu/menu_images/COCA.jpeg" height="90" width="90">
+                </div>
+                <div class="cold4">
+                    <p class="head44"><strong>SPRITE(250ml)INR20</strong></p>
+                </div>
+                <div class="cold44">
+                    <img src="menu/menu_images/SPRITE.jpeg" height="90" width="90">
+                </div>
+                <div class="cold5">
+                    <p class="head55"><strong>THUMSUP(750ml)INR40</strong></p>
+                </div>
+                <div class="cold55">
+                    <img src="menu/menu_images/FANTAAA.png" height="90" width="90">
+                </div>
+                <div class="cold6">
+                    <p class="head66"><strong>SPRITE(250ml)INR40</strong></p>
+                </div>
+                <div class="cold66">
+                    <img src="menu/menu_images/SPRITE.jpeg" height="90" width="90">
+                </div>
+                <div class="cold7">
+                    <p class="head77"><strong>FANTA(250ml)INR20</strong></p>
+                </div>
+                <div class="cold77">
+                    <img src="menu/menu_images/FANTA.png" height="85" width="85">
+                </div>
+            </div>
+        </div>
+        <div id="juice_menu">
+            <div class="menu">
+                <div class="cold1">
+                    <p class="head11"><strong>SPRITE(2.25l)INR99</strong></p>
+                </div>
+                <div class="cold11">
+                    <img src="https://media.giphy.com/media/h0KBN3qQOAxv6DwiFm/giphy.gif" height="90" width="90">
+                </div>
+                <div class="cold2">
+                    <p class="head22"><strong>COKE(750ml)INR44</strong></p>
+                </div>
+                <div class="cold22">
+                    <img src="menu/menu_images/COCA.jpeg" height="90" width="90">
+                </div>
+                <div class="cold3">
+                    <p class="head33"><strong>COKE(250ml)INR20</strong></p>
+                </div>
+                <div class="cold33">
+                    <img src="menu/menu_images/COCA.jpeg" height="90" width="90">
+                </div>
+                <div class="cold4">
+                    <p class="head44"><strong>SPRITE(250ml)INR20</strong></p>
+                </div>
+                <div class="cold44">
+                    <img src="menu/menu_images/SPRITE.jpeg" height="90" width="90">
+                </div>
+                <div class="cold5">
+                    <p class="head55"><strong>THUMSUP(750ml)INR40</strong></p>
+                </div>
+                <div class="cold55">
+                    <img src="menu/menu_images/FANTAAA.png" height="90" width="90">
+                </div>
+                <div class="cold6">
+                    <p class="head66"><strong>SPRITE(250ml)INR40</strong></p>
+                </div>
+                <div class="cold66">
+                    <img src="menu/menu_images/SPRITE.jpeg" height="90" width="90">
+                </div>
+                <div class="cold7">
+                    <p class="head77"><strong>FANTA(250ml)INR20</strong></p>
+                </div>
+                <div class="cold77">
+                    <img src="menu/menu_images/FANTA.png" height="85" width="85">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="ice_cream_menu">
+                <div class="menu">
+                    <div class="cold1">
+                        <p class="head11"><strong>SPRITE(2.25l)INR99</strong></p>
+                    </div>
+                    <div class="cold11">
+                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fcute-ice-cream-cone-cartoon-vector-icon-illustration-food-drink-icon-concept-isolated-premium-vector-flat-cartoon-style_17948851.htm&psig=AOvVaw3Y36NKhbiuax3SbqqAlXnK&ust=1680729680875000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLjFw4-Ukf4CFQAAAAAdAAAAABAD" height="90" width="90">
+                    </div>
+                    <div class="cold2">
+                        <p class="head22"><strong>COKE(750ml)INR44</strong></p>
+                    </div>
+                    <div class="cold22">
+                        <img src="menu/menu_images/COCA.jpeg" height="90" width="90">
+                    </div>
+                    <div class="cold3">
+                        <p class="head33"><strong>COKE(250ml)INR20</strong></p>
+                    </div>
+                    <div class="cold33">
+                        <img src="menu/menu_images/COCA.jpeg" height="90" width="90">
+                    </div>
+                    <div class="cold4">
+                        <p class="head44"><strong>SPRITE(250ml)INR20</strong></p>
+                    </div>
+                    <div class="cold44">
+                        <img src="menu/menu_images/SPRITE.jpeg" height="90" width="90">
+                    </div>
+                    <div class="cold5">
+                        <p class="head55"><strong>THUMSUP(750ml)INR40</strong></p>
+                    </div>
+                    <div class="cold55">
+                        <img src="menu/menu_images/FANTAAA.png" height="90" width="90">
+                    </div>
+                    <div class="cold6">
+                        <p class="head66"><strong>SPRITE(250ml)INR40</strong></p>
+                    </div>
+                    <div class="cold66">
+                        <img src="menu/menu_images/SPRITE.jpeg" height="90" width="90">
+                    </div>
+                    <div class="cold7">
+                        <p class="head77"><strong>FANTA(250ml)INR20</strong></p>
+                    </div>
+                    <div class="cold77">
+                        <img src="menu/menu_images/FANTA.png" height="85" width="85">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div id="crisps_menu">
+                    <div class="menu">
+                        <div class="cold1">
+                            <p class="head11"><strong>SPRITE(2.25l)INR99</strong></p>
+                        </div>
+                        <div class="cold11">
+                            <img src="https://media.giphy.com/media/h0KBN3qQOAxv6DwiFm/giphy.gif" height="90" width="90">
+                        </div>
+                        <div class="cold2">
+                            <p class="head22"><strong>COKE(750ml)INR44</strong></p>
+                        </div>
+                        <div class="cold22">
+                            <img src="menu/menu_images/COCA.jpeg" height="90" width="90">
+                        </div>
+                        <div class="cold3">
+                            <p class="head33"><strong>COKE(250ml)INR20</strong></p>
+                        </div>
+                        <div class="cold33">
+                            <img src="menu/menu_images/COCA.jpeg" height="90" width="90">
+                        </div>
+                        <div class="cold4">
+                            <p class="head44"><strong>SPRITE(250ml)INR20</strong></p>
+                        </div>
+                        <div class="cold44">
+                            <img src="menu/menu_images/SPRITE.jpeg" height="90" width="90">
+                        </div>
+                        <div class="cold5">
+                            <p class="head55"><strong>THUMSUP(750ml)INR40</strong></p>
+                        </div>
+                        <div class="cold55">
+                            <img src="menu/menu_images/FANTAAA.png" height="90" width="90">
+                        </div>
+                        <div class="cold6">
+                            <p class="head66"><strong>SPRITE(250ml)INR40</strong></p>
+                        </div>
+                        <div class="cold66">
+                            <img src="menu/menu_images/SPRITE.jpeg" height="90" width="90">
+                        </div>
+                        <div class="cold7">
+                            <p class="head77"><strong>FANTA(250ml)INR20</strong></p>
+                        </div>
+                        <div class="cold77">
+                            <img src="menu/menu_images/FANTA.png" height="85" width="85">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div id="cake_menu">
+                        <div class="menu">
+                            <div class="cold1">
+                                <p class="head11"><strong>SPRITE(2.25l)INR99</strong></p>
+                            </div>
+                            <div class="cold11">
+                                <img src="https://media.giphy.com/media/h0KBN3qQOAxv6DwiFm/giphy.gif" height="90" width="90">
+                            </div>
+                            <div class="cold2">
+                                <p class="head22"><strong>COKE(750ml)INR44</strong></p>
+                            </div>
+                            <div class="cold22">
+                                <img src="menu/menu_images/COCA.jpeg" height="90" width="90">
+                            </div>
+                            <div class="cold3">
+                                <p class="head33"><strong>COKE(250ml)INR20</strong></p>
+                            </div>
+                            <div class="cold33">
+                                <img src="menu/menu_images/COCA.jpeg" height="90" width="90">
+                            </div>
+                            <div class="cold4">
+                                <p class="head44"><strong>SPRITE(250ml)INR20</strong></p>
+                            </div>
+                            <div class="cold44">
+                                <img src="menu/menu_images/SPRITE.jpeg" height="90" width="90">
+                            </div>
+                            <div class="cold5">
+                                <p class="head55"><strong>THUMSUP(750ml)INR40</strong></p>
+                            </div>
+                            <div class="cold55">
+                                <img src="menu/menu_images/FANTAAA.png" height="90" width="90">
+                            </div>
+                            <div class="cold6">
+                                <p class="head66"><strong>SPRITE(250ml)INR40</strong></p>
+                            </div>
+                            <div class="cold66">
+                                <img src="menu/menu_images/SPRITE.jpeg" height="90" width="90">
+                            </div>
+                            <div class="cold7">
+                                <p class="head77"><strong>FANTA(250ml)INR20</strong></p>
+                            </div>
+                            <div class="cold77">
+                                <img src="menu/menu_images/FANTA.png" height="85" width="85">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <footer>
-        <div class="divide"> 
-         
-        <div class="new">
-             <h1>BEYOND<br>MESS</h1><br>
-             <hr>
-         </diV>
-         
-         <div class="new">
-             <h2>Important Links</h2>
-             <ul>
-                 <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
-                 <li><a href="RefundPolicy.html">Refund Policy</a></li>
-                 <li><a href="TermsOfServices.html">Terms Of Service</a></li>
-             </ul>
-         </div>
-         
-         <div class="new">
-             <h2>Contact Us</h2><br>
-             <h3>beyondmess06@gmail.com</h3><br>
-             <hr>
-         </div>
-         
-         </div>
-         <div class="last">beyond mess 2023</div>
-     </footer>
+
+                <footer>
+                    <div class="divide">
+                        <div class="new">
+                            <h1>BEYOND<br>MESS</h1><br>
+                            <hr>
+                        </diV>
+
+                        <div class="new">
+                            <h2>Important Links</h2>
+                            <ul>
+                                <li><a href="footer/PrivacyPolicy.html">Privacy Policy</a></li>
+                                <li><a href="footer/RefundPolicy.html">Refund Policy</a></li>
+                                <li><a href="footer/TermsOfServices.html">Terms Of Service</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="new">
+                            <h2>Contact Us</h2><br>
+                            <h3>beyondmess06@gmail.com</h3><br>
+                            <hr>
+                        </div>
+
+                    </div>
+                    <div class="last">beyond mess 2023</div>
+                </footer>
 
 </body>
+
 </html>
