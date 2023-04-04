@@ -161,7 +161,7 @@
     position:relative;
     width:90px;
     height:90px;
-    background-color: lightblue;
+    background-color: white;
     border:solid;
     border-width:3px;
     border-color:#227C70;
@@ -171,7 +171,7 @@
     position:relative;
     width:90px;
     height:90px;
-    background-color: lightblue;
+    background-color: white;
     border:solid;
     border-width:3px;
     border-color:#227C70;
@@ -181,7 +181,7 @@
     position:relative;
     width:90px;
     height:90px;
-    background-color: lightblue;
+    background-color: white;
     border:solid;
     border-width:3px;
     border-color:#227C70;
@@ -191,7 +191,7 @@
     position:relative;
     width:90px;
     height:90px;
-    background-color: lightblue;
+    background-color: white;
     border:solid;
     border-width:3px;
     border-color:#227C70;
@@ -201,11 +201,26 @@
     position:relative;
     width:90px;
     height:90px;
-    background-color: lightblue;
+    background-color: white;
     border:solid;
     border-width:3px;
     border-color:#227C70;
     border-radius:10px;
+}
+.button1:hover{
+    background-color: #227C70;
+}
+.button2:hover{
+    background-color: #227C70;
+}
+.button3:hover{
+    background-color: #227C70;
+}
+.button4:hover{
+    background-color: #227C70;
+}
+.button5:hover{
+    background-color: #227C70;
 }
 
 .bottomlist{
@@ -254,3 +269,4 @@ footer{
     display: flex;
     justify-content: space-between;
     }
+
