@@ -1,0 +1,12 @@
+ <div class="div1">
+        <header>
+            <img class="logo1" src="https://beyondmess.live/static/media/Logo.b6ab3415f54b94d405818cc2898e2fa3.svg" alt="logo" height="40px" weight="40px">
+            <nav>
+                <ul class="options">
+                    <li class="list1"><a class="link1" href="#">HOME</a></li>
+                    <li class="list1'"><a class="link1" href="#">ABOUT</a></li>
+                </ul>
+            </nav>
+            <a class="login" href="#"><button class="but1">LOGIN</button></a>
+        </header>
+        </div>

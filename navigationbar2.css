@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0%;
+    background-color: whitesmoke;
+}
+.class1, .link1, .but1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo1{
+    cursor: pointer;
+}
+.options{
+    list-style: none;
+}
+.options li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+.options li a{
+    transition:all 0.3s ease 0s;
+}
+.options li a:hover {
+   color: aqua;
+}
+.but1{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; 
+    transition: all 0.3s ease 0s;
+}
+.but1:hover{
+    background-color: aquamarine;
+}
+.div1{
+    background-color:black;
+}
