@@ -1,8 +1,9 @@
-*{
+div1{
     box-sizing: border-box;
     margin:0;
     padding: 0%;
     background-color: whitesmoke;
+    
 }
 .class1, .link1, .but1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,11 +12,13 @@
     color: black;
     text-decoration: none;
 }
-header{
+#head{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2), 0 3px 10px 0 rgba(0,0,0,.19);
+
 }
 .logo1{
     cursor: pointer;
@@ -23,14 +26,14 @@ header{
 .options{
     list-style: none;
 }
-.options li{
+.options .list1{
     display:inline-block;
     padding: 0px 20px;
 }
-.options li a{
+.options .list1 .login{
     transition:all 0.3s ease 0s;
 }
-.options li a:hover {
+.options .list1 .login:hover {
    color: aqua;
 }
 .but1{
@@ -45,5 +48,5 @@ header{
     background-color: aquamarine;
 }
 .div1{
-    background-color:black;
+    background-color:white;
 }
