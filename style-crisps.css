@@ -103,7 +103,7 @@
     height:90px;
     background-color: white;
     position:relative;
-    bottom:755px;
+    bottom:760px;
     left:810px;
     border:solid;
     border-width:3px;
@@ -124,7 +124,7 @@
     height:90px;
     background-color: white;
     position:relative;
-    bottom:995px;
+    bottom:1000px;
     left:530px;
     border:solid;
     border-width:3px;
@@ -137,7 +137,7 @@
     background-color:white;
     position:relative;
     left:195px;
-    bottom:1065px;
+    bottom:1060px;
     box-shadow:5px 5px 5px 5px#97DECE;
 }
 .cold77{
@@ -145,7 +145,7 @@
     height:90px;
     background-color: white;
     position:relative;
-    bottom:1245px;
+    bottom:1240px;
     left:240px;
     border:solid;
     border-width:3px;
@@ -153,44 +153,44 @@
     border-radius:5px;
 }
 .head11{
-    position:relative;
-    top:80px;
-    left:15px;
     color:#227C70;
+    position:relative;
+    top:50px;
+    left:8px;
 }
 .head22{
-    position:relative;
-    top:80px;
-    left:15px;
     color:#227C70;
+    position:relative;
+    top:50px;
+    left:8px;
 }
 .head33{
-    position:relative;
-    top:80px;
-    left:15px;
     color:#227C70;
+    position:relative;
+    top:50px;
+    left:8px;
 }
 .head44{
-    position:relative;
-    top:80px;
-    left:15px;
     color:#227C70;
-}
-.head77{
     position:relative;
-    top:80px;
-    left:15px;
-    color:#227C70;
-}
-.head66{
-    position:relative;
-    top:80px;
-    left:15px;
-    color:#227C70;
+    top:55px;
+    left:8px;
 }
 .head55{
-    position:relative;
-    top:80px;
-    left:0px;
     color:#227C70;
+    position:relative;
+    top:55px;
+    left:8px;
+}
+.head66{
+    color:#227C70;
+    position:relative;
+    top:55px;
+    left:8px;
+}
+.head77{
+    color:#227C70;
+    position:relative;
+    top:55px;
+    left:8px;
 }
