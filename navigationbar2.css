@@ -34,18 +34,20 @@ div1{
     transition:all 0.3s ease 0s;
 }
 .options .list1 .login:hover {
-   color: aqua;
+   color: #2E4F4F;
 }
 .but1{
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
+    background-color: #CBE4DE;
+    border: 2px;
     border-radius: 50px;
+    border-style: solid;
+    border-color: #2E4F4F;
     cursor: pointer; 
     transition: all 0.3s ease 0s;
 }
 .but1:hover{
-    background-color: aquamarine;
+    background-color: #2E4F4F;
 }
 .div1{
     background-color:white;

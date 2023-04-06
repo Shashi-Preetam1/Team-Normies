@@ -18,12 +18,12 @@ body{
     left:20px;
 }
 .top-container{
-    background-color:#97DECE;
+    background-color:#CBE4DE;
     width:95%;
     height:200px;
     border:solid;
     border-width:3px;
-    border-color:#439A97;
+    border-color:#2E4F4F;
     display:inline-block;
     text-align:center;
     border-radius:15px;
@@ -34,15 +34,17 @@ body{
 .top-heading{
     display:inline-block;
     text-align:center;
-    color:#227C70;
-    font-size:100px;
+    color:#2E4F4F;
+    font-size:110px;
     position:relative;
     bottom:30px;
     left:40px;
+    font-family: "ultra , serif";
+    font-variant-position: super;
 }
 .logo{
     
-    background-color:#97DECE;
+    background-color:#CBE4DE;
 }
 .bottomlist{
     background-color: aliceblue;
@@ -319,4 +321,28 @@ footer{
     display: flex;
     justify-content: space-between;
     }
-
+#img-ice{
+    position:relative;
+    left:28px;
+    top:15px;
+}
+#maaza{
+    position:relative;
+    left:26px;
+}
+#lychee{
+    position:relative;
+    top:8px;
+    left:5px;
+}
+#orange{
+    position:relative;
+    top:10px;
+}
+#lemon{
+    position:relative;
+    top:10px;
+}
+a{
+    color:#97DECE;
+}
